@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div id="error-message" style="display: none;">
+      No movies found. Please try a different search.
+  </div>
+    <div id="Container">
+
+        <div>
+            <h1 class="Heading"><span class="head">P</span>opular<span class="head">M</span>ovies</h1>
+        </div>
+
+        <div class="input">
+            <input type="text" id="Search" placeholder="Search Movie...">
+            <button type="submit" id="button" class="btn">Search</button>
+        </div>                   
+
+    </div>
+    <hr>
+     <!-- output section -->
+    <div id="Container1">
+      <a id="cha"
+      onclick="moviedeatils('${ele.title}')" href="./info.html">
+         <div id="card">
+           <img id="Img"  src="img/Gadar2img.jpg" alt="">
+           <h3 id="mName">Gadar 2</h3>
+           <p id="year">2023</p>
+           <div class="layer">
+            <i class="fa-solid fa-play">
+               <p id="nextPAge">click here to GET more INFO</p>
+            </i>
+         </div>
+         </div>
+      </a>
+         <div id="card">
+            <img id="Img"  src="img/RedWhiteMovie.jpeg" alt="">
+            <h3 id="mName">Red White & Royal Blue</h3>
+            <p id="year">2023</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          <div id="card">
+            <img id="Img"  src="img/ExtractionImg.jpg" alt="">
+            <h3 id="mName">Extraction 2</h3>
+            <p id="year">2023</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          <div id="card">
+            <img id="Img"  src="img/fast&fuimg.jpg" alt="">
+            <h3 id="mName">Fast & Furious</h3>
+            <p id="year">2021</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          
+          <div id="card">
+            <img id="Img"  src="img/jailermov.jpg" alt="">
+            <h3 id="mName">Jailer</h3>
+            <p id="year">2023</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          
+          <div id="card">
+            <img id="Img"  src="img/monkeyImg.jpg" alt="">
+            <h3 id="mName">The Monkey King</h3>
+            <p id="year">2023</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          
+          <div id="card">
+            <img id="Img"  src="img/rokyRani.jpg" alt="">
+            <h3 id="mName">Rocky & Rani</h3>
+            <p id="year">2023</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          <div id="card">
+            <img id="Img"  src="img/shehejadaimg.jpg" alt="">
+            <h3 id="mName">Shehzada</h3>
+            <p id="year">2022</p>
+            <div class="layer">
+                <i class="fa-solid fa-play"></i>
+             </div>
+          </div>
+          
+          
+
+    </div> 
+     
+    <div class="mid">
+       <button class="btn btn2" id="seeMore">See More</button>
+    </div>
+
+
+    <script src="script.js"></script>
+    <!-- <script src="scri.js"></script> -->
+
+</body>
+</html>
